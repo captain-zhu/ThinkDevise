@@ -1,0 +1,27 @@
+{
+    "name": "captain-zhu/think-devise",
+    "description": "受Rails Devise启发，为Thinkphp5提供登录授权等操作",
+    "type": "library",
+    "keywords": [
+        "thinkphp",
+	"devise",
+	"authentication"
+    ],
+    "require": {
+        "topthink/think": "^5.0",
+	"php": ">=5.4.0",
+	"ircmaxell/password-compat": "^1.0"
+    },
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "captain-zhu",
+            "email": "andypaker@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+	    "ThinkDevise\\": "src/"
+	}
+    }
+}
